@@ -30,12 +30,18 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%) scale(0.1);
 }
 .popup p{
     padding-block: 10px;
 }
 .closeModalbtn{
     background-color: green;
-
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px 12px;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
 }

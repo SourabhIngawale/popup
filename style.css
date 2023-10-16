@@ -32,6 +32,7 @@
     left: 50%;
     transform: translate(-50%,-50%) scale(0.1);
     visibility: hidden;
+    transition: transform 0.35s;
 }
 .popup p{
     padding-block: 10px;
@@ -50,4 +51,9 @@
     transform: translate(-50%,-50%) scale(1);
     visibility: visible;
 
+}
+@media screen and (max-width:340px) {
+    .popup{
+        max-width: 80vw;
+    }
 }
